@@ -1,6 +1,5 @@
 ## 📄 `word-ex/README.md`
 
-```markdown
 # 🎮 WORD STAGE - 全文ハック型・英単語特訓システム -
 
 GitHub Pagesで爆速で動く、音ゲー風UIを意識したサイバーパンクデザインの英単語タイピング特訓アプリです。
