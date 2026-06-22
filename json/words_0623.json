@@ -1,3 +1,317 @@
 [
-  { "word": "way", "meaning": "駅への道", "sentence": "the [ ] to the station" }
+  {
+    "word": "threw a ball",
+    "sentence": "She [ _ _ _ _ _  _  _ _ _ _ ] to the dog, but it didn't move.",
+    "meaning": "彼女はそのイヌにボールを投げたが、イヌは動かなかった。"
+  },
+  {
+    "word": "lift my suitcase",
+    "sentence": "I can't [ _ _ _ _  _ _  _ _ _ _ _ _ _ _ ]. It's too heavy.",
+    "meaning": "私は自分のスーツケースを持ち上げられません。それは重すぎます。"
+  },
+  {
+    "word": "hit me in the face",
+    "sentence": "My brother threw a ball and it [ _ _  _ _  _ _  _ _ _  _ _ _ _ ].",
+    "meaning": "兄がボールを投げて、それが私の顔にぶつかった。"
+  },
+  {
+    "word": "handed the exam papers to us",
+    "sentence": "The teacher [ _ _ _ _ _ _  _ _ _  _ _ _ _  _ _ _ _ _ _  _ _  _ _ ].",
+    "meaning": "先生は試験用紙を私たちに渡した。"
+  },
+  {
+    "word": "stand on the train",
+    "sentence": "I usually have to [ _ _ _ _ _  _ _  _ _ _  _ _ _ _ _ ] when I go to school.",
+    "meaning": "学校に行くとき、私はたいてい電車の中で立っていなければなりません。"
+  },
+  {
+    "word": "write your name",
+    "sentence": "Please [ _ _ _ _ _  _ __ _  _ _ _ _ ] and your phone number here.",
+    "meaning": "ここにお名前と電話番号を書いてください。"
+  },
+  {
+    "word": "drew a map",
+    "sentence": "She found my house easily because I [ _ _ _ _  _  _ _ _ ].",
+    "meaning": "私が地図を描いたので、彼女は私の家を簡単に見つけた。"
+  },
+  {
+    "word": "painted the pond",
+    "sentence": "Monet often [ _ _ _ _ _ _ _  _ _ _  _ __ _ ] in his garden.",
+    "meaning": "モネはよく彼の庭にある池を描いた。"
+  },
+  {
+    "word": "call me Tom",
+    "sentence": "My name is Thomas. Please [ _ _ _ _  _ _  _ _ _ ].",
+    "meaning": "私の名前はトーマスです。トムと呼んでください。"
+  },
+  {
+    "word": "shouted to me",
+    "sentence": "She [ _ _ _ _ _ _ _  _ _  _ _ ] from across the road.",
+    "meaning": "彼女は道路の向こう側から大声で私に呼びかけた。"
+  },
+  {
+    "word": "crying",
+    "sentence": "The baby is [ _ _ _ _ _ _ ]. What happened?",
+    "meaning": "その赤ちゃんは泣いています。何があったの？"
+  },
+  {
+    "word": "screamed with pain",
+    "sentence": "She [ _ _ _ _ _ _ _ _  _ _ _ _  _ _ __ ] when she broke her leg.",
+    "meaning": "足の骨を折ったとき、彼女は痛みで悲鳴を上げた。"
+  },
+  {
+    "word": "waiting for him",
+    "sentence": "I've been [ _ _ _ _ _ _ _  _ _ _  _ _ _ ] for over an hour.",
+    "meaning": "私は1時間以上彼を待っています。"
+  },
+  {
+    "word": "arrived at our hotel",
+    "sentence": "Our train was delayed, so we [ _ _ _ _ _ _ _  _ _  _ _ _  _ _ _ _ _ ] around midnight.",
+    "meaning": "私たちの乗った電車が遅れたので、夜の12時頃にホテルに到着した。"
+  },
+  {
+    "word": "knocked on his door",
+    "sentence": "I [ _ _ _ _ _ _ _  _ _  _ _ _  _ _ __ ], but there was no answer.",
+    "meaning": "彼のドアをノックしたが返事がなかった。"
+  },
+  {
+    "word": "laughed at Ota's joke",
+    "sentence": "We [ _ _ _ _ _ _ _  _ _ ] Mr. [ _ _ _ ' _  _ _ _ _ ].",
+    "meaning": "私たちは太田先生の冗談を笑った。"
+  },
+  {
+    "word": "visited a school",
+    "sentence": "We [ _ _ _ _ _ _ _  _  _ _ _ _ _ _ ] in Korea this summer.",
+    "meaning": "私たちはこの夏、韓国の学校を訪問した。"
+  },
+  {
+    "word": "reached the top",
+    "sentence": "Hillary [ _ _ _ _ _ _ _  _ _ _  _ _ _ ] of Mt. Everest in 1953.",
+    "meaning": "ヒラリーは1953年にエベレストの頂上に到達した。"
+  },
+  {
+    "word": "enter the room",
+    "sentence": "You cannot [ _ _ _ _ _  _ __  _ _ _ _ ] without the key.",
+    "meaning": "あなたは鍵なしでその部屋に入ることはできない。"
+  },
+  {
+    "word": "someone was following me",
+    "sentence": "I felt that [ _ _ _ _ _ _  _ _ _  _ _ _ _ _ _ _ _  _ _ ].",
+    "meaning": "誰かが私のあとをつけていると感じた。"
+  },
+  {
+    "word": "lie on the sofa",
+    "sentence": "My cat likes to [ _ _ _  _ _  _ __  _ _ _ _ ].",
+    "meaning": "私のネコはソファーに横になるのが好きだ。"
+  },
+  {
+    "word": "laid the baby",
+    "sentence": "She [ _ _ _ _  _ __  _ _ _ _ ] on the bed because he was asleep.",
+    "meaning": "赤ちゃんは眠っていたので、彼女はベッドに赤ちゃんを寝かせた。"
+  },
+  {
+    "word": "prices are rising",
+    "sentence": "Vegetable [ _ _ _ __ _  _ _ _  _ _ _ _ _ _ ] now.",
+    "meaning": "今野菜の値段が上がっている。"
+  },
+  {
+    "word": "raise your hand",
+    "sentence": "Please [ _ _ _ _ _  _ _ _ _  _ _ _ _ ] if you know the answer.",
+    "meaning": "もし答えを知っていたら手を挙げてください。"
+  },
+  {
+    "word": "planning to visit a school",
+    "sentence": "We are [ _ _ _ _ _ _ _ _  _ _  _ __ _ _  _  _ _ _ _ _ _ ] in China in March.",
+    "meaning": "私たちは3月に中国の学校を訪れることを計画しています。"
+  },
+  {
+    "word": "decided to study in Paris",
+    "sentence": "I've [ _ _ _ _ _ _ _  _ _  _ _ _ _ _  _ _  _ __ _ _ ] next year.",
+    "meaning": "私は来年パリで勉強することに決めています。"
+  },
+  {
+    "word": "expecting to see you",
+    "sentence": "We are [ _ _ _ _ _ _ _ __  _ _  _ _ _  _ _ _ ] in Japan in July.",
+    "meaning": "私たちは7月に日本であなたに会うことを期待しています。"
+  },
+  {
+    "word": "enjoy learning English",
+    "sentence": "Do you [ _ _ _ _ _  _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ ] at school?",
+    "meaning": "あなたは学校で英語を学ぶことを楽しんでいますか。"
+  },
+  {
+    "word": "considering raising the price",
+    "sentence": "The company is [ _ _ _ _ _ _ _ __ _ _  _ _ _ _ _ _ _  _ _ _  _ _ __ _ ] of cooking oil.",
+    "meaning": "その会社は食用油の値段を上げることを検討している。"
+  },
+  {
+    "word": "remember to buy eggs",
+    "sentence": "Please [ _ _ _ _ _ _ _ _  _ _  _ _ _  _ __ _ ] on your way home.",
+    "meaning": "家に帰る途中で卵を買うことを覚えておいてくださいね。"
+  },
+  {
+    "word": "remember visiting Hawaii",
+    "sentence": "I still [ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _  _ _ _ _ _ _ ] with my family when I was five.",
+    "meaning": "私は5歳のときに家族とハワイに行ったことをまだ覚えています。"
+  },
+  {
+    "word": "forgot to buy eggs",
+    "sentence": "I [ _ _ _ _ _ _  __  _ _ _  _ __ _ ] on my way home.",
+    "meaning": "私は家に帰る途中で卵を買うのを忘れてしまいました。"
+  },
+  {
+    "word": "never forget going to",
+    "sentence": "I'll [ _ _ _ _ _  _ _ _ _ _ _  _ __ _ _  _ _ ] Hawaii.",
+    "meaning": "私はハワイに行ったことを決して忘れません。"
+  },
+  {
+    "word": "need to go shopping",
+    "sentence": "We [ _ _ _ _  _ _  _ _  _ ___ __ _ _ ] to buy some food.",
+    "meaning": "私たちは食料品を買うために買い物に行く必要がある。"
+  },
+  {
+    "word": "need washing",
+    "sentence": "The tomatoes [ _ _ _ _  _ _ _ _ _ _ _ ] before you eat them.",
+    "meaning": "そのトマトは食べる前に洗う必要がある。"
+  },
+  {
+    "word": "began to rain",
+    "sentence": "It [ _ _ _ _ _  _ _  _ _ _ _ ] last night.",
+    "meaning": "昨夜雨が降り始めた。（※to rainパターン）"
+  },
+  {
+    "word": "began raining",
+    "sentence": "It [ _ _ _ __  _ _ _ _ _ _ _ ] last night.",
+    "meaning": "昨夜雨が降り始めた。（※rainingパターン）"
+  },
+  {
+    "word": "continue to work",
+    "sentence": "Let's [ _ _ _ _ _ _ _ _  __  _ _ _ _ ] for another hour before lunch.",
+    "meaning": "昼食を取る前にもう1時間働き続けましょう。（※to workパターン）"
+  },
+  {
+    "word": "continue working",
+    "sentence": "Let's [ _ _ _ _ _ _ _ _  _ __ _ _ _ _ ] for another hour before lunch.",
+    "meaning": "昼食を取る前にもう1時間働き続けましょう。（※workingパターン）"
+  },
+  {
+    "word": "hate to go out",
+    "sentence": "I [ _ _ _ _  _ _  _ _  _ _ _ ] in the rain.",
+    "meaning": "雨の中外出するのは嫌だ。（※to go outパターン）"
+  },
+  {
+    "word": "hate going out",
+    "sentence": "I [ _ _ _ _  _ _ _ _ _  _ __ ] in the rain.",
+    "meaning": "雨の中外出するのは嫌だ。（※going outパターン）"
+  },
+  {
+    "word": "helped me to put",
+    "sentence": "My grandmother [ _ _ _ _ _ _  _ _  _ _  _ _ _ ] on a kimono.",
+    "meaning": "私の祖母は私が着物を着るのを手伝ってくれた。（※toありパターン）"
+  },
+  {
+    "word": "helped me put",
+    "sentence": "My grandmother [ _ _ _ _ _ _  _ _  _ _ _ ] on a kimono.",
+    "meaning": "私の祖母は私が着物を着るのを手伝ってくれた。（※原型パターン）"
+  },
+  {
+    "word": "Let me help",
+    "sentence": "You look very busy. [ _ _ _  _ _  _ _ _ _ ] you.",
+    "meaning": "あなたはとても忙しそうです。私にあなたを手伝わせてください。"
+  },
+  {
+    "word": "made me clean",
+    "sentence": "My mother [ _ _ _ _  _ _  _ _ _ _ _ ] my room.",
+    "meaning": "母は私に部屋を掃除させた。"
+  },
+  {
+    "word": "allowed us to use",
+    "sentence": "The teacher [ _ _ _ _ _ _ _  _ _  _ _  _ __ ] our dictionaries in the exam.",
+    "meaning": "その先生は私たちに試験で辞書を使うことを許した。"
+  },
+  {
+    "word": "led you to study",
+    "sentence": "What [ _ _ _  _ _ _  __  _ _ _ _ _ ] art in college?",
+    "meaning": "なぜ大学で芸術を勉強する気になったのですか（何があなたを導いたのですか）。"
+  },
+  {
+    "word": "ordered him to stop his",
+    "sentence": "The police [ _ _ _ _ _ _ _  _ _ _  _ _  _ _ _ _  _ _ _ ] car.",
+    "meaning": "警察は車を止めるよう彼に命じた。"
+  },
+  {
+    "word": "advised him to drive slowly",
+    "sentence": "I [ _ _ _ _ _ _ _  _ _ _  __  _ _ _ _ _  _ _ __ _ _ ] in the snow.",
+    "meaning": "私は雪の中ではゆっくり運転するよう彼に助言した。"
+  },
+  {
+    "word": "were forced to leave",
+    "sentence": "Many people in Ukraine [ _ _ __  _ _ __ _ _  _ _  _ _ _ _ _ ] the country due to the war.",
+    "meaning": "ウクライナにいる多くの人が戦争のために国を去ることを強いられた。"
+  },
+  {
+    "word": "trust my parents",
+    "sentence": "I know I can always [ _ _ _ _ _  _ _  _ _ _ __ _ _ ].",
+    "meaning": "私はいつでも両親を信頼することができるとわかっている。"
+  },
+  {
+    "word": "don't believe him",
+    "sentence": "He said he had ten million yen, but I [ _ _ _ ' _  _ _ _ _ _ _ _  _ __ ].",
+    "meaning": "彼は1000万円持っていると言っていたが、私は彼を信じない。"
+  },
+  {
+    "word": "don't mind if it rains",
+    "sentence": "I [ _ _ _ ' _  _ __ _  _ _  _ _  _ _ __ _ ] tomorrow because I'm staying home.",
+    "meaning": "もし明日雨が降っても気にしません。"
+  },
+  {
+    "word": "don't care what he thinks",
+    "sentence": "I [ _ _ _ ' _  _ _ _ _  _ __ _  _ _  _ _ __ _ _ ] about me.",
+    "meaning": "彼が私をどう思うと私は気にしない。"
+  },
+  {
+    "word": "appeared to be",
+    "sentence": "He [ _ _ _ _ _ _ _ _  _ _  _ _ ] busy when I saw him yesterday.",
+    "meaning": "昨日彼を見たとき、忙しそうに見えた。（※to beありパターン）"
+  },
+  {
+    "word": "appeared busy",
+    "sentence": "He [ _ _ _ _ _ _ _ _  _ _ _ _ ] busy when I saw him yesterday.",
+    "meaning": "昨日彼を見たとき、忙しそうに見えた。（※busy直結パターン）"
+  },
+  {
+    "word": "appeared",
+    "sentence": "A rainbow [ _ _ _ _ _ _ _ _ ] after the rain.",
+    "meaning": "雨のあと、虹が現れた。"
+  },
+  {
+    "word": "seems to be rich",
+    "sentence": "She [ _ _ _ _ _  _ _  _ _  _ _ __ ] because she wears several diamond rings.",
+    "meaning": "いくつもダイヤの指輪をしているので、彼女は金持ちのようだ。（※to beありパターン）"
+  },
+  {
+    "word": "seems rich",
+    "sentence": "She [ _ _ _ _ _  _ _ _ _ ] because she wears several diamond rings.",
+    "meaning": "いくつもダイヤの指輪をしているので、彼女は金持ちのようだ。（※rich直結パターン）"
+  },
+  {
+    "word": "seems to like salad",
+    "sentence": "He [ _ _ _ __  _ _  _ _ _ _  _ _ _ _ _ ] very much. He always orders it.",
+    "meaning": "彼はとてもサラダが好きなようだ。"
+  },
+  {
+    "word": "fewer Japanese people",
+    "sentence": "Nowadays [ _ _ _ _ _  _ ______ _ _  _ _____ ] study abroad.",
+    "meaning": "今日では留学する日本人はより少ない。"
+  },
+  {
+    "word": "have less free time",
+    "sentence": "Third-year students [ _ _ _ _  _ _ _ _  _ _ _ _  _ _ _ _ ] than younger students.",
+    "meaning": "3年生は年下の生徒に比べてより自由時間が少ない。"
+  },
+  {
+    "word": "feel worse",
+    "sentence": "I didn't feel well yesterday, and now I [ _ _ _ _  _ _ _ _ _ ].",
+    "meaning": "昨日気分が良くなかったのだが今はもっと気分が悪い。"
+  }
 ]
