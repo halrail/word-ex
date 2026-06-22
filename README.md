@@ -81,4 +81,4 @@ word-ex/
 このプロジェクトは、「DRY原則（Don't Repeat Yourself：同じコードを何度も書かない）」**と**「ユーザー体験のテンポ感」を極限まで追求して開発されました。
 リロードなしの画面遷移、LocalStorageを使用したシームレスなお気に入り同期など、エンジニアとしてのこだわりが詰まった単語帳システムです。
 
-Developed with Gemini
+Developed with Gemini 3.5 flush

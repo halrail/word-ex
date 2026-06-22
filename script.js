@@ -120,11 +120,14 @@ function showQuestion() {
     inputEl.focus();
     
     const currentData = testWords[currentIndex];
-    
-    // ⭐【修正】お友達の要望通り、sentence（出題文章）がある場合はそのまま無加工で表示！
-    // JSON側で "sentence": "one of my [ _ _ _ ]" と書いてあればそのまま表示されるぜ！
-    document.getElementById('meaning-display').innerText = currentData.sentence ? currentData.sentence : currentData.meaning;
 
+    if (currentData.sentence) {
+    // 英文（穴あき）と日本語訳を改行（\n）でセットにして表示！
+        document.getElementById('meaning-display').innerText = currentData.sentence + "\n\n（意味: " + currentData.meaning + "）";
+    } else {
+    // 万が一 sentence が無いデータの場合は日本語だけを出す安全弁
+        document.getElementById('meaning-display').innerText = currentData.meaning;
+    }
     const favs = getFavorites();
     const favBtn = document.getElementById('btn-fav');
     if (favs.includes(currentData.word)) {
