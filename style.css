@@ -121,6 +121,7 @@ h1 {
     font-weight: bold;
     color: #ffffff;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    white-space: pre-wrap;
 }
 
 /* レビューエリアのスタイル */
