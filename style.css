@@ -184,10 +184,21 @@ h1 {
 #review-user {
     font-size: 1rem;
     word-break: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
     text-align: center;
     width: 100%;
+}
+
+#review-container {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+#review-correct,
+#review-user {
+    max-width: 100%;
+    display: inline-block;
 }
 
 /* 判定フラッシュ */
