@@ -126,15 +126,27 @@ h1 {
 
 /* レビューエリアのスタイル */
 #review-container {
+    /* 🔥 【超重要】もし position: absolute; や fixed が書いてあったら、
+       他の要素の上に被さる原因になるから【削除】するか、以下のように relative にしてくれ！ */
+    position: relative; 
+    
+    /* 既存のフレックス設定などを活かしつつ、上との隙間を作る */
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    text-align: left;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    margin-top: 20px; /* 出題文との間にしっかりスペースを確保するぜ */
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.85); /* ちょっと透ける黒 */
     border-radius: 8px;
-    font-size: 1rem;
-    font-weight: bold;
+    box-sizing: border-box;
+    
+    /* 縦に文字が伸びても絶対にはみ出さない設定 */
+    height: auto; 
+    min-height: 100px;
+    z-index: 10;
 }
 
 /* 自動判定のデカ文字ネオン */
@@ -155,7 +167,14 @@ h1 {
 }
 
 #review-correct { color: #00ffcc; }
-#review-user { font-weight: bold; }
+#review-user {
+    font-size: 1rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+}
 
 /* 判定フラッシュ */
 .correct-flash { background-color: rgba(0, 255, 102, 0.15); opacity: 1; }
