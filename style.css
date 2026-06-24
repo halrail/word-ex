@@ -6,6 +6,10 @@ body {
     margin: 0;
     padding: 20px;
     overflow-x: hidden;
+    height: auto !important; /* これで縦スクロールが出るようになるぜ */
+    overflow-y: auto !important; /* これで縦スクロールが出るようになるぜ */
+    padding-bottom: 60px; /* 下に余白を作って、スクロールバーが出ても内容が隠れないようにする */
+    box-sizing: border-box; /* パディング込みでサイズを計算する */
 }
 
 h1 {
@@ -344,6 +348,13 @@ h1 {
 .word-jpn {
     font-size: 0.85rem;
     color: #888;
+}
+.word-sentence {
+    font-size: 0.8rem;
+    color: #00ffcc;
+    opacity: 0.85;
+    margin-top: 4px;
+    white-space: normal;
 }
 .list-fav-btn {
     background: none;

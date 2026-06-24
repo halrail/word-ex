@@ -167,16 +167,15 @@ function renderWordList() {
     const favs = getFavorites();
 
     allWords.forEach(item => {
-        // ⭐ リスト画面でもカッコを消さずに、データに入っている文章（または単語）をそのまま綺麗に出すぜ
-        const displayPhrase = item.sentence ? item.sentence : item.word;
         const isFav = favs.includes(item.word);
 
         const itemEl = document.createElement('div');
         itemEl.className = "word-item";
         itemEl.innerHTML = `
             <div class="word-info">
-                <div class="word-eng">${displayPhrase}</div>
+                <div class="word-eng">${item.word}</div>
                 <div class="word-jpn">${item.meaning}</div>
+                ${item.sentence ? `<div class="word-sentence">${item.sentence}</div>` : ''}
             </div>
             <button class="list-fav-btn ${isFav ? 'active' : ''}">★</button>
         `;
