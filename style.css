@@ -335,6 +335,48 @@ h1 {
 #word-list-container::-webkit-scrollbar { width: 6px; }
 #word-list-container::-webkit-scrollbar-thumb { background: #00ffcc; border-radius: 3px; }
 
+.notice-list {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.notice-item {
+    background: #151828;
+    border: 1px solid #00ffcc;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.12);
+}
+
+.notice-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.notice-date {
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.notice-title {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.notice-body {
+    color: #ccc;
+    line-height: 1.7;
+    white-space: pre-wrap;
+}
+
 .word-item {
     display: flex;
     justify-content: space-between;

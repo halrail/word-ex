@@ -263,6 +263,49 @@ function backToTitle() {
     loadGameData(document.getElementById('stage-select').value);
 }
 
+async function loadNotice() {
+    const noticeList = document.getElementById('notice-list');
+    noticeList.innerHTML = `
+        <div class="notice-item">
+            <div class="notice-title">お知らせを読み込んでいます...</div>
+        </div>
+    `;
+
+    try {
+        const response = await fetch('json/notice.json');
+        const notices = await response.json();
+
+        if (!Array.isArray(notices) || notices.length === 0) {
+            noticeList.innerHTML = `
+                <div class="notice-item">
+                    <div class="notice-title">現在お知らせはありません</div>
+                </div>
+            `;
+            return;
+        }
+
+        noticeList.innerHTML = "";
+        notices.forEach(item => {
+            const itemEl = document.createElement('div');
+            itemEl.className = 'notice-item';
+            itemEl.innerHTML = `
+                <div class="notice-head">
+                    <span class="notice-date">${item.date || ''}</span>
+                    <span class="notice-title">${item.title || ''}</span>
+                </div>
+                <div class="notice-body">${item.body || ''}</div>
+            `;
+            noticeList.appendChild(itemEl);
+        });
+    } catch (error) {
+        noticeList.innerHTML = `
+            <div class="notice-item">
+                <div class="notice-title">お知らせの読み込みに失敗しました</div>
+            </div>
+        `;
+    }
+}
+
 function switchView(viewName) {
     document.querySelectorAll('.view-section').forEach(el => el.style.display = 'none');
     document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
@@ -275,6 +318,10 @@ function switchView(viewName) {
         document.getElementById('list-screen').style.display = 'block';
         document.getElementById('nav-list-btn').classList.add('active');
         loadGameData(document.getElementById('list-stage-select').value);
+    } else if (viewName === 'notice') {
+        document.getElementById('notice-screen').style.display = 'block';
+        document.getElementById('nav-notice-btn').classList.add('active');
+        loadNotice();
     }
 }
 
@@ -295,6 +342,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('nav-home-btn').addEventListener('click', () => switchView('game'));
     document.getElementById('nav-list-btn').addEventListener('click', () => switchView('list'));
+    document.getElementById('nav-notice-btn').addEventListener('click', () => switchView('notice'));
 
     document.getElementById('btn-all-mode').addEventListener('click', () => startGame('all'));
     document.getElementById('btn-fav-mode').addEventListener('click', () => startGame('fav'));

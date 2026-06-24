@@ -11,6 +11,7 @@
     <nav id="game-nav">
         <button id="nav-home-btn" class="nav-btn active">🎮 PLAY</button>
         <button id="nav-list-btn" class="nav-btn">📋 WORD LIST</button>
+        <button id="nav-notice-btn" class="nav-btn">📢 NOTICE</button>
     </nav>
 
     <div id="select-screen" class="view-section">
@@ -80,6 +81,16 @@
         </div>
 
         <div id="word-list-container"></div>
+    </div>
+
+    <div id="notice-screen" class="view-section" style="display: none;">
+        <h1>NOTICE</h1>
+        <div class="subtitle">運営からのお知らせ</div>
+        <div id="notice-list" class="notice-list">
+            <div class="notice-item">
+                <div class="notice-title">お知らせを読み込んでいます...</div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
