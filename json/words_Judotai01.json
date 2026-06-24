@@ -1,0 +1,102 @@
+[
+  {
+    "word": "covered with",
+    "sentence": "The mountain will be [ _ _ _ _ _ _ _  _ _ _ _ ] snow in winter.",
+    "meaning": "（〜で覆われている）"
+  },
+  {
+    "word": "known to",
+    "sentence": "Her name is be [ _ _ _ _ _  _ _ ] everyone in this town.",
+    "meaning": "（〜に知られている）"
+  },
+  {
+    "word": "filled with",
+    "sentence": "The room was be [ _ _ _ _ _ _  _ _ _ _ ] smoke.",
+    "meaning": "（〜で満たされている）"
+  },
+  {
+    "word": "caught in",
+    "sentence": "I was be [ _ _ _ _ _ _  _ _ ] a sudden shower on my way home.",
+    "meaning": "（〜に遭う、〜に捕まる）"
+  },
+  {
+    "word": "made of",
+    "sentence": "This table is be [ _ _ _ _  _ _ ] wood.",
+    "meaning": "（〜で作られている【材料・見た目でわかる】）"
+  },
+  {
+    "word": "made from",
+    "sentence": "Cheese is be [ _ _ _ _  _ _ _ _ ] milk.",
+    "meaning": "（〜で作られている【原料・性質が変わる】）"
+  },
+  {
+    "word": "crowded with",
+    "sentence": "The train was be [ _ _ _ _ _ _ _  _ _ _ _ ] commuters.",
+    "meaning": "（〜で混雑している）"
+  },
+  {
+    "word": "surprised at",
+    "sentence": "We were be [ _ _ _ _ _ _ _ _ _  _ _ ] the sudden news.",
+    "meaning": "（〜に驚いている）"
+  },
+  {
+    "word": "satisfied with",
+    "sentence": "She is be [ _ _ _ _ _ _ _ _ _  _ _ _ _ ] her exam results.",
+    "meaning": "（〜に満足している）"
+  },
+  {
+    "word": "disappointed in",
+    "sentence": "They were be [ _ _ _ _ _ _ _ _ _ _ _ _  _ _ ] the performance.",
+    "meaning": "（〜にがっかりしている、〜に失望している）"
+  },
+  {
+    "word": "interested in",
+    "sentence": "He is be [ _ _ _ _ _ _ _ _ _  _ _ ] Japanese history.",
+    "meaning": "（〜に興味がある）"
+  },
+  {
+    "word": "excited at",
+    "sentence": "The children were be [ _ _ _ _ _ _  _ _ ] the thought of the trip.",
+    "meaning": "（〜に興奮している、〜にワクワクしている）"
+  },
+  {
+    "word": "shocked at",
+    "sentence": "Everyone was be [ _ _ _ _ _ _  _ _ ] the terrible accident.",
+    "meaning": "（〜にショックを受けている）"
+  },
+  {
+    "word": "pleased with",
+    "sentence": "The teacher was be [ _ _ _ _ _ _ _  _ _ _ _ ] our hard work.",
+    "meaning": "（〜に喜んでいる、〜に満足している）"
+  },
+  {
+    "word": "born",
+    "sentence": "He was be [ _ _ _ _ ] in Tokyo.",
+    "meaning": "（生まれる）"
+  },
+  {
+    "word": "married",
+    "sentence": "They have been be [ _ _ _ _ _ _ _ ] for five years.",
+    "meaning": "（結婚している）"
+  },
+  {
+    "word": "injured",
+    "sentence": "Several players were be [ _ _ _ _ _ _ _ ] during the match.",
+    "meaning": "（怪我をしている、負傷している）"
+  },
+  {
+    "word": "killed",
+    "sentence": "Many trees were be [ _ _ _ _ _ ] by the typhoon.",
+    "meaning": "（死ぬ、枯れる、台無しにされる）"
+  },
+  {
+    "word": "seated",
+    "sentence": "Please remain be [ _ _ _ _ _ _ ] until the bus stops.",
+    "meaning": "（座っている、着席している）"
+  },
+  {
+    "word": "delayed",
+    "sentence": "Our flight was be [ _ _ _ _ _ _ _ ] due to bad weather.",
+    "meaning": "（遅れている、遅延している）"
+  }
+]
