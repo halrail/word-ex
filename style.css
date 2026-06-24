@@ -166,7 +166,17 @@ h1 {
     text-shadow: 0 0 10px #ff007f;
 }
 
-#review-correct { color: #00ffcc; }
+#review-correct {
+    font-size: 1.2rem;
+    color: #00ffcc; /* ネオンマゼンタやグリーン */
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
 #review-user {
     font-size: 1rem;
     word-break: break-word;
